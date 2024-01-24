@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("/images/sinnoh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(212, 44, 44);
+}
+.titulo{
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.container > .container_left {
+    font-size:12px;
+    width: 100%;
+}
+.container > .container_left > .regras{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(165, 154, 154);
+}
+.container > .container_left > .regras > h3{
+    margin: 5px;
+}
+.container > .container_left > .regras > ul{
+    margin: 5px;
+}
+.container > .container_left > .pokemons{
+
+    border: 1px solid rgb(70, 111, 165);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.container > .container_left > .pokemons > .poke{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    width: 120px;
+    min-height: 120px;
+    
+
+}
+.container > .container_left > .pokemons > .poke > img{
+    max-height: 75px;
+    
+}
+
+
+.container > .container_right{
+    width: 100%;
+}
+
+.container > .container_right > .premios > .lugar > .poke_premio{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 120px;
+}
+.container > .container_right > .premios > .lugar > .poke_info{
+
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 120px;
+}
+.lugar{
+    margin-top: 6px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+#pos1{
+    background-color: rgba(150, 148, 25, 0.2);
+}
+#pos2{
+    background-color: rgba(128, 127, 106, 0.2);
+}
+#pos3{
+    background-color: rgba(182, 96, 31, 0.2);
+}
+#pos4{
+    background-color: rgba(81, 197, 102, 0.2);
+}
+.premios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    list-style:outside;
+}
+.posicao{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.poke_premio > img {
+    max-width: 75px;
+}
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 6px; /* largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000000; /* cor de fundo da trilha */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #311c63; /* cor do polegar */
+    border-radius: 6px; /* curvatura dos cantos do polegar */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #221241; /* cor do polegar ao passar o mouse */
+  }
+  
+  .medalha {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
