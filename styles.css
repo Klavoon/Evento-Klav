@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url("/images/sinnoh.png");
+    background-image: url("./images/sinnoh.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
